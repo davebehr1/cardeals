@@ -1,0 +1,81 @@
+@font-face {
+    font-family: squigs;
+    src: url(Brusher-Regular.ttf);
+}
+body{
+	background-image:url("Carolina-Body-ClubO2.jpg");
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+input{
+	display:inline;
+	border:none;
+
+}
+.input-group input{
+	border:none;
+
+}
+.input-group select{
+	border:none;
+
+}
+label{
+	margin-left:20px;
+}
+#blocker{
+	position:fixed;
+	background:grey;
+}
+#ad{
+	text-align: center;
+	background: grey;
+
+}
+#yes{
+	margin:6px;
+	width: 150px;
+}
+.list-group-item{
+	margin: 10px;
+	z-index: 1;
+	background-color:rgba(50,50,50,0.7);
+	border:none;
+	color:white;
+
+}
+#full{
+	text-align: center;
+	margin-top:100px;
+}
+
+.btn {
+	background-color:#787B82;
+	border:none;
+}
+
+.text{
+	 float:right;
+	 background-color:rgba(50,50,50,0.0);
+	 width: 40%;
+	 height: 30%;
+
+	
+}
+.navbar{
+	background-color: rgba(50,50,50,0.5);
+	border:none;
+}
+
+h1{
+	text-align: center;
+	font-family: squigs;
+	color:white;
+	font-size: 200px;
+}
+.sidenav{
+	top: 30px;
+}

@@ -1,0 +1,74 @@
+@font-face {
+    font-family: squigs;
+    src: url(Brusher-Regular.ttf);
+}
+h1{
+	font-family: squigs;
+	color:white;
+	text-align: center;
+	margin-top: 10%;
+	font-size: 100px;
+}
+body{
+	background-image:url("Carolina-Body-ClubO2.jpg");
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+img{
+  margin-left:37%;
+  
+}
+#block{
+  background: rgba(30,20,30,0.3);
+  width:80%;
+  height:80%;
+  margin:auto;
+  padding:20px;
+  border-radius: 5px;
+
+}
+
+
+
+.navbar-default{
+  background:transparent;
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
+
+}
+.navbar-inner{
+}
+
+.navbar .nav.navbar-nav {
+     float: right;
+    margin-right: 98px; /*set margin this way in your custom styesheet*/
+  }
+
+ .navbar .nav > li > a {
+
+    color: white;
+}
+
+legend{
+	text-align: center;
+}
+.panel-default{
+	margin-top:30%;
+	  background:transparent;
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
+  width: 300px
+}
+.panel-default input{
+	 background:grey;
+	 border-style: none;
+	 color:white;
+}
+#submit{
+  padding:5px;
+}
