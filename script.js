@@ -14,10 +14,12 @@ $(document).ready(function(){
             success: function(data){
                 console.log(data);
                  console.log(data);
+                 console.log("YO MAMA");
+                 console.log(data);
                // var text = data;
         
     
-                if(data == 'yay'){
+                if(data == "yay"){
                 console.log('logged in');
                 //alert(text);
                      window.location = 'otherpage.php';

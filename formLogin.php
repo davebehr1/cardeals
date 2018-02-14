@@ -11,8 +11,8 @@
 			$user =$_POST['uname'];
 			//echo "<h1>'$password','$user'</h1>";
 			require 'databaseConnect.php';
-			debug_to_console("User name ". $user);
-			debug_to_console("password ". $password);
+			//debug_to_console("User name ". $user);
+			//debug_to_console("password ". $password);
 
 			$sql = "SELECT username, password FROM regUsers WHERE username = '$user' AND password = '$password'";
 			$result = $conn->query($sql);
