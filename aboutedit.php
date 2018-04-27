@@ -6,10 +6,10 @@
 		
 			$username = "root";
 			$server ="localhost";
-			//$password="xeomaiti";
-			$dbname = "mydb";
+			$password="152638";
+			$dbname = "myDB";
 
-			$conn = new mysqli($server,$username,'',$dbname);
+			$conn = new mysqli($server,$username,$password,$dbname);
 
 
 			if ($conn->connect_error) {

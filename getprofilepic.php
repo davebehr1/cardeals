@@ -3,7 +3,7 @@
     
       require 'databaseConnect.php';
 
-      $statement = "SELECT profilepic FROM regusers WHERE username ='$user'";
+      $statement = "SELECT profilepic FROM regUsers WHERE username ='$user'";
       $result = $conn->query($statement);
       if ($result->num_rows > 0) {
         $row = $result->fetch_assoc();

@@ -25,7 +25,7 @@ if(isset($_FILES['image']))
   {
       require 'databaseConnect.php';
 
-      $statement = "UPDATE regusers SET  profilepic = '$path' WHERE username ='$user'";
+      $statement = "UPDATE regUsers SET  profilepic = '$path' WHERE username ='$user'";
       $result = $conn->query($statement);
       if($conn->query($statement)== TRUE){
                 echo $path;

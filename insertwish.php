@@ -2,10 +2,10 @@
       session_start();
       $username = "root";
       $server ="localhost";
-      //$password="xeomaiti";
-      $dbname = "mydb";
+      $password="152638";
+      $dbname = "myDB";
       $user = $_SESSION['name'];
-      $conn = new mysqli($server,$username,'',$dbname);
+      $conn = new mysqli($server,$username,$password,$dbname);
       $ads = '';
 
       if ($conn->connect_error) {
